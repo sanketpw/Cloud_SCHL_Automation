@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Payroll Suite">
+	
+	<listeners>
+		
+		<listener class-name="com.qa.listeners.ExtentListeners" />
+		
+	</listeners>
+	
+	
+	<test name="LockUnlock Salary Tests">
+		<classes>
+				<class name="com.qa.tests.payroll.LockUnlockSalaryTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	<test name="Salary Processing Tests">
+		<classes>
+			<class name="com.qa.tests.payroll.SalaryProcessingTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	
+	
+	<test name="Abstract Salary NewReport Tests">
+		<classes>
+			<class name="com.qa.tests.payroll.AbstractSalaryNewReportTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	
+	<test name="Employee PaySlip Reports Tests">
+		<classes>
+			<class name="com.qa.tests.payroll.EmployeePaySlipReportTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+</suite> <!-- Suite -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.tests.academic.AttendancePracticalBatchAllottment"/>
+      <class name="com.qa.tests.academic.AttendanceTheoryBatchCreation"/>
+      <class name="com.qa.pages.academic.itle_elearning.ITLE_ELearningAdmin"/>
+      <class name="com.qa.tests.academic.AttendanceTimetableCreationTest"/>
+      <class name="com.qa.tests.examination.RegularExamTest"/>
+      <class name="com.qa.tests.academic.AttendancePracticalBatchCreation"/>
+      <class name="com.qa.tests.academic.AttendanceStudentAttendanceTest"/>
+      <class name="com.qa.tests.academic.AttendanceTheoryBatchAllottment"/>
+      <class name="com.qa.tests.academic.CreateITLETests"/>
+      <class name="com.qa.tests.academic.AttendanceStudentPracBatchRegistrationTests"/>
+      <class name="com.qa.pages.academic.itle_elearning.ITLE_CreateTestAdmin"/>
+      <class name="com.qa.tests.academic.AppearITLEObjectiveTest"/>
+      <class name="com.qa.tests.academic.StudentAdmissionTests"/>
+      <class name="com.qa.tests.academic.CreateITLETestsAdmin"/>
+      <class name="com.qa.tests.academic.AttendanceSlotAllottment"/>
+      <class name="com.qa.tests.academic.AttendanceSubjectTeacherAllottment"/>
+      <class name="com.qa.tests.academic.AttendanceStudentThBatchRegistrationTests"/>
+      <class name="com.qa.tests.academic.roughTests"/>
+      <class name="com.qa.tests.academic.AttendanceSessionCreation"/>
+      <class name="com.qa.tests.academic.SYTYRegisterationTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Student Admission Suite]">
+  <listeners>
+    <listener class-name="com.qa.listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Student Admission(failed)">
+    <classes>
+      <class name="com.qa.tests.academic.StudentAdmissionTests">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="studentAdmission_without_ZeroAmt_andWith_SubmitAndPay"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.qa.tests.academic.StudentAdmissionTests -->
+    </classes>
+  </test> <!-- Student Admission(failed) -->
+</suite> <!-- Failed suite [Student Admission Suite] -->

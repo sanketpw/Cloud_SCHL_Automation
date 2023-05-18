@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<!--Error Text -->
+<string name="ErrPlsEntVldMobNum">Please enter a valid number</string>
+<string name="errorTextUDNE">User does not exist</string>
+<string name="errorTextPMBO8C">Password must be of 8 characters</string>
+<string name="errorTextPNM">Password is not matching</string>
+</resources>

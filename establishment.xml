@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Establishment Suite">
+	
+	<listeners>
+		
+		<listener class-name="com.qa.listeners.ExtentListeners" />
+		
+	</listeners>
+	
+	<test name="Leave Allotment">
+		<classes>
+			<class name="com.qa.tests.establishment.LeaveAllotmentTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	<test name="Leave Details">
+		<classes>
+			<class name="com.qa.tests.establishment.LeaveDetailsTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	<test name="Leave Allotment Report">
+		<classes>
+			<class name="com.qa.tests.establishment.LeaveAllotmentReportTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	<test name="Leave Status Report">
+		<classes>
+				<class name="com.qa.tests.establishment.LeaveStatusReportTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	<test name="Leave Detail ReportTests">
+		<classes>
+			<class name="com.qa.tests.establishment.LeaveDetailReportTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+</suite> <!-- Suite -->

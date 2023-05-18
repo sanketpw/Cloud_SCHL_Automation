@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ITLE Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Appear Objective Tests CIMS(failed)">
+    <classes>
+      <class name="com.qa.tests.itle_elearning.AppearObjectiveTestsCIMS">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="appear_Objective_Test"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.qa.tests.itle_elearning.AppearObjectiveTestsCIMS -->
+    </classes>
+  </test> <!-- Appear Objective Tests CIMS(failed) -->
+</suite> <!-- Failed suite [ITLE Suite] -->

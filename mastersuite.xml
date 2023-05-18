@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+	
+	<listeners>
+		
+		<listener class-name="com.qa.listeners.ExtentListeners" />
+		
+	</listeners>
+	
+	<suite-files>
+		
+		<suite-file path="academic.xml">
+			
+		</suite-file>
+		
+		<suite-file path="payroll.xml">
+		
+		</suite-file>
+		
+		<suite-file path="attendance.xml">
+			
+		</suite-file>
+		
+<!-- 		<suite-file path="examination.xml">
+			
+		</suite-file>
+-->
+		
+		<suite-file path="itle.xml">
+			
+		</suite-file> 
+
+		
+			<suite-file path="establishment.xml">
+			
+		</suite-file>
+		
+	</suite-files>
+	
+</suite> <!-- Suite -->

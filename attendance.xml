@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Attendance Suite">
+	
+	<listeners>
+		
+		<listener class-name="com.qa.listeners.ExtentListeners" />
+		
+	</listeners>
+	
+	
+	
+	<test name="Student Attendance">
+		<classes>
+			<class name="com.qa.tests.attendance.AttendanceTests"/>
+		</classes>
+	</test>
+	<!-- Test --> 
+
+	<test name="Practical Batch Creation">
+		<classes>
+			<class name="com.qa.tests.attendance.PracticalBatchCreationTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	<test name="Time Slot Tests">
+		<classes>
+			<class name="com.qa.tests.attendance.TimeSlotTests"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	
+	
+</suite> <!-- Suite -->
